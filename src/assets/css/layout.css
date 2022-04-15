@@ -1,0 +1,31 @@
+.layout-content {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 2rem 0;
+  grid-gap: 1rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .layout-content {
+    min-height: 60vh;
+  }
+}
+
+
+@media screen and (max-width: 500px){
+  .grid-layout{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .grid-layout{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

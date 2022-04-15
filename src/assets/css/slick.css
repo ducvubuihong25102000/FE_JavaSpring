@@ -1,0 +1,35 @@
+
+.slick {
+  margin-bottom: 3rem;
+  background-color: #ecf0f1;
+}
+
+.slick .slick-dots{
+  bottom: 25px;
+}
+
+.slick-dots li{
+  bottom: 25px;
+}
+
+.slick-dots li button:before {
+  font-size: 0.7rem;
+  color: #7f8c8d;
+  opacity: 0.85;
+}
+
+.slick-dots li.slick-active button:before{
+  opacity: 1;
+}
+/* 
+.slick-slide {
+  height:500px;
+} */
+
+.slick-slide img {
+  height:500px;
+}
+
+.related-post-slick .slick-dots{
+  bottom:0;
+}
